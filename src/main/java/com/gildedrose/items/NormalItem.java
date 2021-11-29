@@ -16,7 +16,7 @@ public class NormalItem implements ItemUpdater {
     }
 
     protected int getQualityDecrease(int sellIn) {
-        //İf sellin less than 0 than decrease 2 otherwise 1
+        //Once the sell by date has passed, Quality degrades twice as fast
         return sellIn < 0 ? 2 : 1;
     }
 
