@@ -1,4 +1,4 @@
 package com.gildedrose.items;
 
-public class Conjured extends NormalItem{
+public class Conjured extends NormalItem {
 }

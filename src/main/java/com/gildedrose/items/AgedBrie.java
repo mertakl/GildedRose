@@ -1,4 +1,4 @@
 package com.gildedrose.items;
 
-public class AgedBrie extends NormalItem{
+public class AgedBrie extends NormalItem {
 }
